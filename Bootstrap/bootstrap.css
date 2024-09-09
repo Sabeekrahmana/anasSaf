@@ -1,0 +1,16 @@
+.form{
+    position: relative;
+}
+
+.fa-solid{
+    color: #000;
+    position: absolute;
+    top: 14px;
+    right: 90px;
+    font-size: 12px;
+}
+
+.btn-info{
+    background-color: orangered !important;
+    color: white !important;
+}

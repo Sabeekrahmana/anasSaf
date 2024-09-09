@@ -1,0 +1,44 @@
+/*------------- MEDIA QUERIES----- */
+
+body {
+  background-color: blanchedalmond;
+}
+
+@media (max-width: 500px) {
+  body {
+    background-color: azure;
+  }
+  h1 {
+    color: darkorange;
+  }
+}
+
+@media (min-width: 500px) {
+  h1 {
+    background-color: lightcyan;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 849px) {
+  .p2 {
+    background-color: red;
+  }
+}
+
+.column {
+  padding: 10px;
+  width: 25%;
+  float: left;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 992px) {
+  .column {
+    width: 40%;
+  }
+}

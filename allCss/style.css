@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+} */
+
+/* .div1{
+    margin: 50px;
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    display: none;
+}
+
+h1{
+    display: none;
+} */
+
+/* div{ */
+    /* display: none; */
+    /* Whatever you written in the code of elements it's not
+     working */
+
+
+    /* display: inline-block; */
+    /* -> It's like inline Elements it does not start on a new
+     line, it's works on same line.
+       -> It's like block level elements, it can be works defined
+        by height and width */
+
+
+    /* display: block; */
+    /* -> Display Block is A Default one 
+       -> It's takes Full width and you can define the height 
+       and width 
+       -> Block elements always starts on a new Line*/
+
+
+    /* display: inline;  */
+    /* -> It elements having inline display,but you 
+    can't  define width or height
+       -> It's automatically adjust its height and 
+        width according to content */
+
+ /* background-color: brown;
+    font-size: 30px;
+    border: 2px solid yellow;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+} */
+
+/* .div1{
+  float: right;
+} */
+
+/* ----DISPLAY FLEX----  */
+
+/* .container{
+    border: 5px solid black;
+    width: 70%;
+    height: 550px;
+    margin: 0 auto;
+} */
+/* 
+.items{
+    border: 3px solid orange;
+    background-color: #604f55;
+    height: 150px;
+    width:  150px;
+    padding: 16px;
+    color: aliceblue;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 8px;
+
+} */
+
+.container{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* flex-direction: column;
+
+    justify-content: space-between;
+    align-items: baseline; */
+    /* gap: 30px; */
+
+     /* flex-wrap: wrap;
+     align-content: flex-start;
+     gap: 10px; */
+    /*  If the elements are not flexible items, the flex-wrap 
+    property has no effect */
+}
+
+.item3{
+    /* flex-grow: 1;  */
+    /* Elements are automatically taken width growing in the container */
+}
+.item2{
+    /* flex-basis: 400px; */
+    /* it's taken specific width whatever you want  */
+ }
+
+ /* .item1{
+   flex: 1;
+ } */
+
+ /* .item1{
+    align-self: flex-end;
+ }
+
+ .item3{
+    align-self: center;
+ } */
+
+ /* .item3{
+    order: -1;
+ } 
+
+ .item2{
+    order: 1;
+ } */
+
+ /* POSITION  */
+
+  .position{
+    /* margin: 0 auto; */
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    position: fixed;
+    top: 100px;
+    left: 10%;
+    z-index: 0;
+
+    /* position: static; */
+    /* It's Default value andn will have no effect on the element */
+    /* position: Fixed; */
+    /* The element stays in the same spot even if you scroll
+     the page up to down it will not move its fixed to the viewport */
+    
+    
+     /* position: sticky; */
+    /* the sticky acts like a normal one until you scrool to 
+    certain point then its sticks to its position like the top  
+    of the Page*/
+  }
+  .sticky{
+    height: 200px;
+    width: 200px;
+    background-color: salmon;
+    position: sticky;
+    top: 200px;
+    left: 50%;
+    
+  }
+  /* .relative{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position: relative;
+    top: 100px;
+    bottom:100px;
+    left: 40%;
+  } */
+
+  .relative{
+    margin: 0 auto;
+    height: 400px;
+    width: 400px;
+    border: 4px solid black;
+    position: relative;
+
+  }
+  .absoulte{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0;
+    left: -50%;
+   
+  }
+
+  .zIndex1{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    position: relative;
+    z-index: 1000;
+    top: 80px;
+
+  }
+  .zIndex2{
+    border: 1px solid blueviolet;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 106, 0);
+    position: relative;
+    z-index: 500;
+  }
+ 
+.main-Zindex{
+    margin-left: 50%;
+}
